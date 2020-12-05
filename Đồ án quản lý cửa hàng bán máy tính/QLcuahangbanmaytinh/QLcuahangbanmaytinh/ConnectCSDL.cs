@@ -10,7 +10,7 @@ namespace QLcuahangbanmaytinh
 {
     public class ConnectCSDL
     {
-        static string strConnect = @"Data Source=DESKTOP-84QSANM\SQLEXPRESS;Initial Catalog=QLCuaHangMayTinh;Integrated Security=True";
+        static string strConnect = @"Data Source=DESKTOP-84QSANM;Initial Catalog=QLCuaHangMayTinh;Integrated Security=True";
         //Khai báo đối tƣợng Connection (SqlConnection) và SqlCommand 
         SqlConnection sqlCon;//sử dụng cách 1         
         SqlCommand sqlCom;

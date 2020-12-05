@@ -20,17 +20,17 @@ namespace QLcuahangbanmaytinh
         private void btntimkiem_Click(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkkhachhang.DataSource = co.GetData("select * from tblKhachhang where MaKH = '" + txtmakh.Text.Trim() + "'");
+            dgvtkkhachhang.DataSource = co.GetData("select * from Khachhang where MaKH = '" + txtmakh.Text.Trim() + "'");
             co.KetNoi();
-            dgvtkkhachhang.DataSource = co.GetData("select * from tblKhachhang where TenKH = '" + txttenkh.Text.Trim() + "'");
+            dgvtkkhachhang.DataSource = co.GetData("select * from Khachhang where TenKH = '" + txttenkh.Text.Trim() + "'");
             co.KetNoi();
-            dgvtkkhachhang.DataSource = co.GetData("select * from tblKhachhang where Diachi = '" + txtdiachi.Text.Trim() + "'");
+            dgvtkkhachhang.DataSource = co.GetData("select * from Khachhang where Diachi = '" + txtdiachi.Text.Trim() + "'");
         }
 
         private void txttenkh_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkkhachhang.DataSource = co.GetData("select * from tblKhachhang where TenKH like '" + txttenkh.Text.Trim() + "%'");
+            dgvtkkhachhang.DataSource = co.GetData("select * from Khachhang where TenKH like '" + txttenkh.Text.Trim() + "%'");
            
         }
 
@@ -47,7 +47,7 @@ namespace QLcuahangbanmaytinh
         private void txtmakh_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkkhachhang.DataSource = co.GetData("select * from tblKhachhang where MaKH = '" + txtmakh.Text.Trim() + "'");
+            dgvtkkhachhang.DataSource = co.GetData("select * from Khachhang where MaKH = '" + txtmakh.Text.Trim() + "'");
         }
 
         private void btnquaylai_Click(object sender, EventArgs e)

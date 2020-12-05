@@ -20,7 +20,7 @@ namespace QLcuahangbanmaytinh
         private void txttktheoten_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtknhanvien.DataSource = co.GetData("select * from tblNhanvien where TenNV like '" + txttennv.Text.Trim() + "%'");
+            dgvtknhanvien.DataSource = co.GetData("select * from NhanVien where TenNV like '" + txttennv.Text.Trim() + "%'");
         }
 
         private void btntktheoma_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace QLcuahangbanmaytinh
         private void txttktheoma_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtknhanvien.DataSource = co.GetData("select * from tblNhanvien where MaNV = '" + txtmanv.Text.Trim() + "'");
+            dgvtknhanvien.DataSource = co.GetData("select * from NhanVien where MaNV = '" + txtmanv.Text.Trim() + "'");
         }
 
         private void txttktheoten_MouseClick(object sender, MouseEventArgs e)
@@ -79,11 +79,11 @@ namespace QLcuahangbanmaytinh
         private void btntimkiem_Click(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtknhanvien.DataSource = co.GetData("select * from tblNhanvien where MaNV = '" + txtmanv.Text.Trim() + "'");
+            dgvtknhanvien.DataSource = co.GetData("select * from NhanVien where MaNV = '" + txtmanv.Text.Trim() + "'");
             co.KetNoi();
-            dgvtknhanvien.DataSource = co.GetData("select * from tblNhanvien where TenNV = '" + txttennv.Text.Trim() + "'");
+            dgvtknhanvien.DataSource = co.GetData("select * from NhanVien where TenNV = '" + txttennv.Text.Trim() + "'");
             co.KetNoi();
-            dgvtknhanvien.DataSource = co.GetData("select * from tblNhanvien where Diachi = '" + txttkdiachi.Text.Trim() + "'");
+            dgvtknhanvien.DataSource = co.GetData("select * from NhanVien where Diachi = '" + txttkdiachi.Text.Trim() + "'");
         }
     }
 }

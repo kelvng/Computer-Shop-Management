@@ -30,19 +30,19 @@ namespace QLcuahangbanmaytinh
         private void txttktheoten_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkthongtinmaytinh.DataSource = co.GetData("select * from tblThongTinMT where TENMT like '" + txttktheoten.Text.Trim() + "%'");
+            dgvtkthongtinmaytinh.DataSource = co.GetData("select * from ThongTinMayTinh where TENMT like '" + txttktheoten.Text.Trim() + "%'");
         }
 
         private void btntktheoma_Click(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkthongtinmaytinh.DataSource = co.GetData("select * from tblThongTinMT where MaMT = '" + txttktheoma.Text.Trim() + "'");
+            dgvtkthongtinmaytinh.DataSource = co.GetData("select * from ThongTinMayTinh where MaMT = '" + txttktheoma.Text.Trim() + "'");
         }
 
         private void txttktheoma_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkthongtinmaytinh.DataSource = co.GetData("select * from tblThongTinMT where MaMT = '" + txttktheoma.Text.Trim() + "'");
+            dgvtkthongtinmaytinh.DataSource = co.GetData("select * from ThongTinMayTinh where MaMT = '" + txttktheoma.Text.Trim() + "'");
             
         }
 

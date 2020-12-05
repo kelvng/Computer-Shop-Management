@@ -19,7 +19,7 @@ namespace QLcuahangbanmaytinh
         public void LoadData()
         {
             co.KetNoi();
-            dgvmaytinh.DataSource = co.GetData("select * from tblThongTinMT");
+            dgvmaytinh.DataSource = co.GetData("select * from ThongTinMayTin");
             co.NgatKetNoi();
         }
         private void btnlammoi_Click(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace QLcuahangbanmaytinh
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            string sqlthem = "insert into tblThongTinMT values ('" + txtmamaytinh.Text + "','" + txttenmaytinh.Text
+            string sqlthem = "insert into ThongTinMayTin values ('" + txtmamaytinh.Text + "','" + txttenmaytinh.Text
                 + "','" + cbomancc.Text + "','" + txtsoluong.Text + "','" + txtgiaban.Text + "')";
 
             co.ThucThi(sqlthem);
@@ -47,7 +47,7 @@ namespace QLcuahangbanmaytinh
             LoadData();
             LoadData();
 
-            cbomancc.DataSource = co.GetData("select * from tblNhaCC");
+            cbomancc.DataSource = co.GetData("select * from NhaCungCap");
             cbomancc.ValueMember = "MaNCC";
             cbomancc.DisplayMember = "MaNCC";
         }
@@ -55,7 +55,7 @@ namespace QLcuahangbanmaytinh
         private void btnsua_Click(object sender, EventArgs e)
         {
 
-            string sqlsua = "update tblThongTinMT set MaMT='" + txtmamaytinh.Text + "',tenmt='" + txttenmaytinh.Text
+            string sqlsua = "update ThongTinMayTin set MaMT='" + txtmamaytinh.Text + "',tenmt='" + txttenmaytinh.Text
                + "',soluong='" + txtsoluong.Text + "',giaban='" + txtgiaban.Text + "',MaNCC='" + cbomancc.SelectedValue +
                "' where MaMT ='" + txtmamaytinh.Text + "'";
             co.ThucThi(sqlsua);
@@ -70,7 +70,7 @@ namespace QLcuahangbanmaytinh
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (traloi == DialogResult.OK)
             {
-                string sqlxoa = "delete from tblThongtinMT where MaMT = '" + txtmamaytinh.Text + "'";
+                string sqlxoa = "delete from ThongtinMayTin where MaMT = '" + txtmamaytinh.Text + "'";
                 co.ThucThi(sqlxoa);
             }
             frmQLthongtinmaytinh_Load(sender, e);

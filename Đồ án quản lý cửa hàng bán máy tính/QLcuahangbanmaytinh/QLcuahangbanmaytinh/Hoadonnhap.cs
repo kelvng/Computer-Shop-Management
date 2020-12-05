@@ -19,7 +19,7 @@ namespace QLcuahangbanmaytinh
         public void LoadData()
         {
             co.KetNoi();
-            dgvDShdn.DataSource = co.GetData("select * from tblHoadonnhap");
+            dgvDShdn.DataSource = co.GetData("select * from Hoadonnhap");
             co.NgatKetNoi();
         }
 
@@ -27,11 +27,11 @@ namespace QLcuahangbanmaytinh
         {
             LoadData();
             LoadData();
-            cbomamaytinh.DataSource = co.GetData("select * from tblThongTinMT");
+            cbomamaytinh.DataSource = co.GetData("select * from ThongTinMayTinh");
             cbomamaytinh.ValueMember = "MaMT";
             cbomamaytinh.DisplayMember = "MaMT";
 
-            cbomancc.DataSource = co.GetData("select * from tblNhaCC");
+            cbomancc.DataSource = co.GetData("select * from NhaCungCap");
             cbomancc.ValueMember = "MaNCC";
             cbomancc.DisplayMember = "MaNCC";
 
@@ -114,7 +114,7 @@ namespace QLcuahangbanmaytinh
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (traloi == DialogResult.OK)
             {
-                string sqlxoa = "delete from tblHoadonban where MaHDN = '" + txtmahoadonnhap.Text + "'";
+                string sqlxoa = "delete from Hoadonban where MaHDN = '" + txtmahoadonnhap.Text + "'";
                 co.ThucThi(sqlxoa);
             }
             frmhoadonnhap_Load(sender, e);

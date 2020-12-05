@@ -20,23 +20,23 @@ namespace QLcuahangbanmaytinh
         private void btntimkiem_Click(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkncc.DataSource = co.GetData("select * from tblNhaCC where MaNCC = '" + txtmancc.Text.Trim() + "'");
+            dgvtkncc.DataSource = co.GetData("select * from NhaCungCap where MaNCC = '" + txtmancc.Text.Trim() + "'");
             co.KetNoi();
-            dgvtkncc.DataSource = co.GetData("select * from tblNhaCC where TenNCC = '" + txttenncc.Text.Trim() + "'");
+            dgvtkncc.DataSource = co.GetData("select * from NhaCungCap where TenNCC = '" + txttenncc.Text.Trim() + "'");
             co.KetNoi();
-            dgvtkncc.DataSource = co.GetData("select * from tblNhaCC where Diachi = '" + txtdiachi.Text.Trim() + "'");
+            dgvtkncc.DataSource = co.GetData("select * from NhaCungCap where Diachi = '" + txtdiachi.Text.Trim() + "'");
         }
 
         private void txtmancc_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkncc.DataSource = co.GetData("select * from tblNhaCC where MaNCC = '" + txtmancc.Text.Trim() + "'");
+            dgvtkncc.DataSource = co.GetData("select * from NhaCungCap where MaNCC = '" + txtmancc.Text.Trim() + "'");
         }
 
         private void txttenncc_TextChanged(object sender, EventArgs e)
         {
             co.KetNoi();
-            dgvtkncc.DataSource = co.GetData("select * from tblNhaCC where TenNCC like '" + txttenncc.Text.Trim() + "%'");
+            dgvtkncc.DataSource = co.GetData("select * from NhaCungCap where TenNCC like '" + txttenncc.Text.Trim() + "%'");
         }
 
         private void txttenncc_MouseClick(object sender, MouseEventArgs e)

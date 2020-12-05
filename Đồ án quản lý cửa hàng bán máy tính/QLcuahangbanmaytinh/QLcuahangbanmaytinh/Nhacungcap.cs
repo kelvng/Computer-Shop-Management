@@ -19,7 +19,7 @@ namespace QLcuahangbanmaytinh
         public void LoadData()
         {
             co.KetNoi();
-            dgvncc.DataSource = co.GetData("select * from tblNhaCC");
+            dgvncc.DataSource = co.GetData("select * from NhaCungCap");
             co.NgatKetNoi();
         }
 
@@ -39,7 +39,7 @@ namespace QLcuahangbanmaytinh
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            string sqlthem = "insert into tblNhaCC values ('" + txtmancc.Text + "','" + txttenncc.Text
+            string sqlthem = "insert into NhaCungCap values ('" + txtmancc.Text + "','" + txttenncc.Text
               + "','" + txtdiachi.Text + "','" + txtsdt.Text + "')";
             co.ThucThi(sqlthem);
             frmnhacungcap_Load(sender, e);
@@ -48,7 +48,7 @@ namespace QLcuahangbanmaytinh
         private void btnsua_Click(object sender, EventArgs e)
         {
 
-            string sqlsua = "update tblNhaCC set MaNCC='" + txtmancc.Text + "',TenNCC='" + txttenncc.Text
+            string sqlsua = "update NhaCungCap set MaNCC='" + txtmancc.Text + "',TenNCC='" + txttenncc.Text
                + "',Diachi='" + txtdiachi.Text + "',sdt='" + txtsdt.Text + "'where MaNCC='" + txtmancc.Text + "'";
             co.ThucThi(sqlsua);
             LoadData();
@@ -69,7 +69,7 @@ namespace QLcuahangbanmaytinh
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (traloi == DialogResult.OK)
             {
-                string sqlxoa = "delete from tblNhaCC where MaNCC = '" + txtmancc.Text + "'";
+                string sqlxoa = "delete from NhaCungCap where MaNCC = '" + txtmancc.Text + "'";
                 co.ThucThi(sqlxoa);
             }
             frmnhacungcap_Load(sender, e);

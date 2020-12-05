@@ -19,7 +19,7 @@ namespace QLcuahangbanmaytinh
         public void LoadData()
         {
             co.KetNoi();
-            dgvnhanvien.DataSource = co.GetData("select * from tblNhanvien");
+            dgvnhanvien.DataSource = co.GetData("select * from NhanVien");
             co.NgatKetNoi();
         }
 
@@ -39,14 +39,14 @@ namespace QLcuahangbanmaytinh
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            string sqlthem = "insert into tblNhanvien values ('" + txtmanv.Text + "','" + txttennv.Text + "','" + txtgioitinh.Text + "','" + txtdiachi.Text + "','" + txtsdt.Text + "')";
+            string sqlthem = "insert into NhanVien values ('" + txtmanv.Text + "','" + txttennv.Text + "','" + txtgioitinh.Text + "','" + txtdiachi.Text + "','" + txtsdt.Text + "')";
             co.ThucThi(sqlthem);
             frmnhanvien_Load(sender, e);
         }
 
         private void btnsua_Click(object sender, EventArgs e)
         {
-            string sqlsua = "update tblNhanvien set MaNV='" + txtmanv.Text
+            string sqlsua = "update NhanVien set MaNV='" + txtmanv.Text
              + "',TenNV='" + txttennv.Text + "',Gioitinh = '" + txtgioitinh.Text + "',Diachi='" + txtdiachi.Text + "',sdt='" + txtsdt.Text + "'where MaNV='" + txtmanv.Text + "'";
             co.ThucThi(sqlsua);
             LoadData();
@@ -76,7 +76,7 @@ namespace QLcuahangbanmaytinh
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (traloi == DialogResult.OK)
             {
-                string sqlxoa = "delete from tblNhanvien where MaNV = '" + txtmanv.Text + "'";
+                string sqlxoa = "delete from NhanVien where MaNV = '" + txtmanv.Text + "'";
                 co.ThucThi(sqlxoa);
             }
             frmnhanvien_Load(sender, e);

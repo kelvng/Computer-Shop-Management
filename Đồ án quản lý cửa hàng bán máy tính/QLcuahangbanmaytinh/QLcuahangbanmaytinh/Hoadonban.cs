@@ -19,7 +19,7 @@ namespace QLcuahangbanmaytinh
         public void LoadData()
         {
             co.KetNoi();
-            dgvDShdb.DataSource = co.GetData("select * from tblHoadonban");
+            dgvDShdb.DataSource = co.GetData("select * from Hoadonban");
             co.NgatKetNoi();
         }
 
@@ -27,11 +27,11 @@ namespace QLcuahangbanmaytinh
         {
             LoadData();
             LoadData();
-            cbomamaytinh.DataSource = co.GetData("select * from tblThongTinMT");
+            cbomamaytinh.DataSource = co.GetData("select * from ThongTinMayTinh");
             cbomamaytinh.ValueMember = "MaMT";
             cbomamaytinh.DisplayMember = "MaMT";
            
-            cbomakh.DataSource = co.GetData("select * from tblKhachhang");
+            cbomakh.DataSource = co.GetData("select * from KhachHang");
             cbomakh.ValueMember = "MaKH";
             cbomakh.DisplayMember = "MaKH";
 
@@ -57,7 +57,7 @@ namespace QLcuahangbanmaytinh
             double tongtien = soluong * dongia;
             txtTongtien.Text = tongtien.ToString();
             co.KetNoi();
-            string sqlthem = "insert into tblHoadonban values ('" + txtmahoadonban.Text + "','" + txtmanv.Text + "','" + cbomakh.SelectedValue + "','" + cbomamaytinh.SelectedValue + "','" + txtsoluong.Text + "','"+mtbNgayban.Text+"','" + txtdiachi.Text + "','" + txtsodienthoai.Text + "','" + txtdongia.Text + "','" + txtTongtien.Text + "')";
+            string sqlthem = "insert into Hoadonban values ('" + txtmahoadonban.Text + "','" + txtmanv.Text + "','" + cbomakh.SelectedValue + "','" + cbomamaytinh.SelectedValue + "','" + txtsoluong.Text + "','"+mtbNgayban.Text+"','" + txtdiachi.Text + "','" + txtsodienthoai.Text + "','" + txtdongia.Text + "','" + txtTongtien.Text + "')";
             co.ThucThi(sqlthem);
             frmhoadonban_Load(sender, e);
         }
@@ -69,7 +69,7 @@ namespace QLcuahangbanmaytinh
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (traloi == DialogResult.OK)
             {
-                string sqlxoa = "delete from tblHoadonban where MaHDB = '" + txtmahoadonban.Text + "'";
+                string sqlxoa = "delete from Hoadonban where MaHDB = '" + txtmahoadonban.Text + "'";
                 co.ThucThi(sqlxoa);
             }
             frmhoadonban_Load(sender, e);
@@ -114,7 +114,7 @@ namespace QLcuahangbanmaytinh
             double tongtien = soluong * dongia;
             txtTongtien.Text = tongtien.ToString();
             co.KetNoi();
-            string sqlsua = "update tblHoadonban set MaHDB='" + txtmahoadonban.Text + "',MaNV='" + txtmanv.Text + 
+            string sqlsua = "update Hoadonban set MaHDB='" + txtmahoadonban.Text + "',MaNV='" + txtmanv.Text + 
                 "',MaKH='" + cbomakh.SelectedValue + "',MaMT='" + cbomamaytinh.SelectedValue + 
                 "',Soluong='" + txtsoluong.Text + "',Ngayban='" + mtbNgayban.Text + "',Diachi='" + txtdiachi.Text + 
                 "',sdt='" + txtsodienthoai.Text + "',Dongia='" + txtdongia.Text + "',Tongtien='" + txtTongtien.Text + "' where MaHDB='" + txtmahoadonban.Text + "'";
@@ -251,7 +251,7 @@ namespace QLcuahangbanmaytinh
         public void loaddata()
         {
             co.KetNoi();
-            dgvDShdb.DataSource = co.GetData("select * from tblHoadonban");
+            dgvDShdb.DataSource = co.GetData("select * from Hoadonban");
             co.NgatKetNoi();
         }
 

@@ -19,7 +19,7 @@ namespace QLcuahangbanmaytinh
         public void LoadData()
         {
             co.KetNoi();
-            dgvkhachhang.DataSource = co.GetData("select * from tblKhachhang");
+            dgvkhachhang.DataSource = co.GetData("select * from Khachhang");
             co.NgatKetNoi();
         }
 
@@ -39,7 +39,7 @@ namespace QLcuahangbanmaytinh
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            string sqlthem = "insert into tblKhachhang values ('" + txtmakh.Text + "','" + txttenkh.Text
+            string sqlthem = "insert into Khachhang values ('" + txtmakh.Text + "','" + txttenkh.Text
              + "','"+txtgioitinh.Text+"','" + txtdiachi.Text + "','" + txtsdt.Text + "')";
             co.ThucThi(sqlthem);
             frmkhachhang_Load(sender, e);
@@ -47,7 +47,7 @@ namespace QLcuahangbanmaytinh
 
         private void btnsua_Click(object sender, EventArgs e)
         {
-            string sqlsua = "update tblKhachhang set MaKH='" + txtmakh.Text + "',TenKH='" + txttenkh.Text + "',Gioitinh = '" + txtgioitinh.Text
+            string sqlsua = "update Khachhang set MaKH='" + txtmakh.Text + "',TenKH='" + txttenkh.Text + "',Gioitinh = '" + txtgioitinh.Text
               + "',Diachi='" + txtdiachi.Text + "',sdt='" + txtsdt.Text + "'where MaKH='" + txtmakh.Text + "'";
             co.ThucThi(sqlsua);
             LoadData();
@@ -62,7 +62,7 @@ namespace QLcuahangbanmaytinh
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (traloi == DialogResult.OK)
             {
-                string sqlxoa = "delete from tblKhachhang where MaKH = '" + txtmakh.Text + "'";
+                string sqlxoa = "delete from Khachhang where MaKH = '" + txtmakh.Text + "'";
                 co.ThucThi(sqlxoa);
             }
         }

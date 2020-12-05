@@ -1,6 +1,5 @@
 USE MASTER
 GO 
-DROP DATABASE QLCuaHangMayTinh
 create database QLCuaHangMayTinh
 GO
 use QLCuaHangMayTinh

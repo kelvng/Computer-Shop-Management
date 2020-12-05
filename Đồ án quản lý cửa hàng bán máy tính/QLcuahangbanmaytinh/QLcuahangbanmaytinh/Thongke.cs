@@ -39,13 +39,13 @@ namespace QLcuahangbanmaytinh
                       if(rdbHDB.Checked == true)
             {
                 co.KetNoi();
-                string sqlTK = "select * from tblHoadonban where Ngayban = '" + mtbThangnam.Text+"'";
+                string sqlTK = "select * from Hoadonban where Ngayban = '" + mtbThangnam.Text+"'";
                 dgvTimkiem.DataSource = co.GetData(sqlTK);
             }
                       if (rdbHDN.Checked == true)
                       {
                           co.KetNoi();
-                          string sqlTK = "select * from tblHoadonnhap where Ngaynhap = '" + mtbThangnam.Text + "'";
+                          string sqlTK = "select * from Hoadonnhap where Ngaynhap = '" + mtbThangnam.Text + "'";
                           dgvTimkiem.DataSource = co.GetData(sqlTK);
                       }
         }
