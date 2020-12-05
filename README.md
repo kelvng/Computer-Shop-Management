@@ -1,7 +1,3 @@
-
-
-
-
 # WELCOME TO ` Management_shop`
 
 
