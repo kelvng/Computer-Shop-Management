@@ -18,7 +18,7 @@ namespace QLcuahangbanmaytinh
 
         private void btndangnhap_Click(object sender, EventArgs e)
         {
-            if ((this.txttendangnhap.Text == "tuyenthuy") && (this.txtmatkhau.Text == "1234"))
+            if ((this.txttendangnhap.Text == "admin") && (this.txtmatkhau.Text == "1234"))
             {
                 this.Hide();
                 frmMenu frm = new frmMenu();

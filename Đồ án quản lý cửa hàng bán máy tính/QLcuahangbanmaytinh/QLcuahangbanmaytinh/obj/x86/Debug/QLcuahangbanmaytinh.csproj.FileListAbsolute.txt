@@ -86,3 +86,25 @@ E:\files đồ án 1+2+3\Đồ án quản lý cửa hàng bán máy tính\QLcuah
 E:\files đồ án 1+2+3\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmtkthongtinmaytinh.resources
 E:\files đồ án 1+2+3\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\files đồ án 1+2+3\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\QLcuahangbanmaytinh.exe
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\QLcuahangbanmaytinh.pdb
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.csprojAssemblyReference.cache
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.csproj.ResolveComReference.cache
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmdangnhap.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmhoadonban.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmhoadonnhap.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmkhachhang.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmMenu.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmnhacungcap.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmnhanvien.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.Properties.Resources.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmQLthongtinmaytinh.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmthongke.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmtkkhachhang.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmtkncc.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmtknhanvien.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.frmtkthongtinmaytinh.resources
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.csproj.GenerateResource.cache
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.csproj.CoreCompileInputs.cache
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.exe
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\obj\x86\Debug\QLcuahangbanmaytinh.pdb
