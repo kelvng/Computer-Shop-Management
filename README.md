@@ -21,9 +21,8 @@ As this Computer Shop Management system will also help the vendor to keep track 
  Administrator can also make changes in the billing process, such as increase or decrease in service tax value, discount to be given to the customer on particular product. Making changes in billing process as per user requirement or for other business rules.
  
  ## Technologies Used
- VB.Net as front end.
- 
- SQL Server Edition as back end.
+ * VB.Net as front end.
+ * SQL Server Edition as back end.
  
  ## Software Used
  * Windows 10.
