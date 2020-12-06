@@ -26,6 +26,6 @@ As this Computer Shop Management system will also help the vendor to keep track 
  SQL Server Edition as back end.
  
  ## Software Used
- Windows 10.
- Visual Studio 2019.
- Microsoft SQL Server.
+ * Windows 10.
+ * Visual Studio 2019.
+ * Microsoft SQL Server.
