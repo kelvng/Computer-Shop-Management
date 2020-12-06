@@ -1,4 +1,4 @@
-# WELCOME TO `Computer Shop Management system project`
+# WELCOME TO `Computer Shop Management`
 
 
 ## Project Description
