@@ -22,4 +22,5 @@ As this Computer Shop Management system will also help the vendor to keep track 
  
  ## Technologies Used
  VB.Net as front end.
+ 
  SQL Server Edition as back end.
