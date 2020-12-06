@@ -155,3 +155,6 @@ C:\Users\TRUNG HIEU PC3\Documents\GitHub\management_shop\Management_shop\Đồ �
 C:\Users\TRUNG HIEU PC3\Documents\GitHub\management_shop\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\LAPTOP-2IMCN1TH.mdf
 C:\Users\TRUNG HIEU PC3\Documents\GitHub\management_shop\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\LAPTOP-2IMCN1TH_log.ldf
 C:\Users\TRUNG HIEU PC3\Documents\GitHub\management_shop\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\QLcuahangbanmaytinh.exe.config
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\LAPTOP-2IMCN1TH.mdf
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\LAPTOP-2IMCN1TH_log.ldf
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Đồ án quản lý cửa hàng bán máy tính\QLcuahangbanmaytinh\QLcuahangbanmaytinh\bin\Debug\QLcuahangbanmaytinh.exe.config
