@@ -17,7 +17,7 @@ Under generating bill section, its user have to make entry in the field of parti
 
 ## Computer Shop Management system Snapshots
 ![alt text](https://github.com/nthanhkhang/Computer-Shop-Management/blob/main/Snapshot/Login.jpg?raw=true)
-
+![alt text](https://github.com/nthanhkhang/Computer-Shop-Management/blob/main/Snapshot/Menu.jpg?raw=true)
 As this Computer Shop Management system will also help the vendor to keep track of number of products available, time of purchase. If any products whose total number will be less than 2 will comes under the blue zone indicating it’s time to purchase that product. It will also display other details such as last time when it is purchased, at what price it was purchased, from where it is purchased, total number of products which was purchased last time.
 
  Administrator can also make changes in the billing process, such as increase or decrease in service tax value, discount to be given to the customer on particular product. Making changes in billing process as per user requirement or for other business rules.
