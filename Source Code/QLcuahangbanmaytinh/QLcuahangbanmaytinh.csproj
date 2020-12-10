@@ -196,7 +196,6 @@
     <EmbeddedResource Include="TKthongtinmaytinh.resx">
       <DependentUpon>TKthongtinmaytinh.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include=".editorconfig" />
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

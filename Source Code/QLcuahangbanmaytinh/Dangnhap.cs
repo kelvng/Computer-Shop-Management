@@ -23,9 +23,6 @@ namespace QLcuahangbanmaytinh
                 this.Hide();
                 frmMenu frm = new frmMenu();
                 frm.Show();
-
-
-
             }
             else
             {
@@ -44,4 +41,3 @@ namespace QLcuahangbanmaytinh
         }
     }
 }
-   

@@ -1,0 +1,14 @@
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\obj\Debug\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\nguyn\OneDrive - Office 365\Công Nghệ Phần Mềm\Management_shop\Source Code\UnitTestProject\obj\Debug\UnitTestProject.pdb

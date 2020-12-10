@@ -151,10 +151,5 @@ namespace QLcuahangbanmaytinh
         {
 
         }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
     }
