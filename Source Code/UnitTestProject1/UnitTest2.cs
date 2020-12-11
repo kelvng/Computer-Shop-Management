@@ -3,9 +3,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
 {
-    [TestClass]
-    public class UnitTest2
+    [TestMethod]
+    public class frmdangnhap
     {
-        static string strConnect = @"Data Source=DESKTOP-84QSANM;Initial Catalog=QLCuaHangMayTinh;Integrated Security=True";
+        public void btndangnhap_Click()
+        {
+            bool result = frmdangnhap.btndangnhap_Click("admin", "1234");
+            Assert.AreEqual(false, result);
+        }
     }
 }
